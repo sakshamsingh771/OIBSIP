@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 st.title("🌸 Iris Flower Classification")
 
 # Load Data
-df = pd.read_csv("Iris.csv")
+df = pd.read_csv("sakshamSingh_task1/Iris.csv")
 
 st.subheader("Dataset Preview")
 st.dataframe(df.head())
